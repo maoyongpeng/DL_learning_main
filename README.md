@@ -1,0 +1,120 @@
+- [项目概述](#项目概述)
+- [一，数学基础专栏](#一数学基础专栏)
+- [二，神经网络基础部件](#二神经网络基础部件)
+- [三，深度学习炼丹](#三深度学习炼丹)
+- [四，深度学习模型压缩](#四深度学习模型压缩)
+- [五，模型推理部署](#五模型推理部署)
+- [六，异构计算](#六异构计算)
+- [七，大语言模型推理及服务化](#七大语言模型推理及服务化)
+- [参考资料](#参考资料)
+
+## 项目概述
+
+本仓库项目是个人总结的计算机视觉和大语言模型学习笔记，包含深度学习基础知识、神经网络基础部件详解、深度学习炼丹策略、深度学习模型压缩算法、深度学习推理框架代码解析及动手实战，以及 `LLM` 基础及推理优化的专栏笔记。
+
+## 一，数学基础专栏
+
+- [深度学习数学基础-概率与信息论](./1-math_ml_basic/深度学习数学基础-概率与信息论.md)
+- [深度学习基础-机器学习基本原理](./1-math_ml_basic/深度学习基础-机器学习基本原理.md)
+- [随机梯度下降法的数学基础](./1-math_ml_basic/随机梯度下降法的数学基础.md)
+- [Python 编程思维导航](./1-math_ml_basic/python_learn_xmind)
+
+## 二，神经网络基础部件
+
+1，**神经网络基础部件**：
+
+1. [神经网络基础部件-卷积层详解](./2-deep_learning_basic/神经网络基础部件-卷积层详解.md)
+2. [神经网络基础部件-BN 层详解](./2-deep_learning_basic/神经网络基础部件-BN层详解.md)
+3. [神经网络基础部件-激活函数详解](./2-deep_learning_basic/神经网络基础部件-激活函数详解.md)
+
+2，**深度学习基础**：
+
+- [反向传播与梯度下降详解](2-deep_learning_basic/反向传播与梯度下降详解.md)
+- [深度学习基础-参数初始化详解](./2-deep_learning_basic/深度学习基础-参数初始化详解.md)
+- [深度学习基础-损失函数详解](./2-deep_learning_basic/深度学习基础-损失函数详解.md)
+- [深度学习基础-优化算法详解](./2-deep_learning_basic/深度学习基础-优化算法详解.md)
+
+## 三，深度学习炼丹
+
+1. [深度学习炼丹-数据标准化](./3-deep_learning_alchemy/深度学习炼丹-数据标准化.md)
+2. [深度学习炼丹-数据增强](./3-deep_learning_alchemy/深度学习炼丹-数据增强.md)
+3. [深度学习炼丹-不平衡样本的处理](./3-deep_learning_alchemy/深度学习炼丹-不平衡样本的处理.md)
+4. [深度学习炼丹-超参数设定](./3-deep_learning_alchemy/深度学习炼丹-超参数调整.md)
+5. [深度学习炼丹-正则化策略](./3-deep_learning_alchemy/深度学习炼丹-正则化策略.md)
+
+## 四，深度学习模型压缩
+
+1. [深度学习模型压缩算法综述](./4-model_compression/深度学习模型压缩方法概述.md)
+2. [模型压缩-轻量化网络设计与部署总结](./4-model_compression/模型压缩-轻量化网络详解.md)
+3. [模型压缩-剪枝算法详解](./4-model_compression/模型压缩-剪枝算法详解.md)
+4. [模型压缩-知识蒸馏详解](./4-model_compression/模型压缩-知识蒸馏详解.md)
+5. [模型压缩-量化算法详解](./4-model_compression/模型压缩-量化算法概述.md)
+
+## 五，模型推理部署
+
+1，模型部署：
+
+- [卷积神经网络复杂度分析](./5-model_deploy/卷积神经网络复杂度分析.md)
+- [模型压缩部署概述](./5-model_deploy/模型压缩部署概述.md)
+
+2，模型推理：
+
+- [矩阵乘法详解](./5-model_deploy/卷积算法优化.md)
+- [模型推理加速技巧-融合卷积和BN层](./5-model_deploy/模型推理加速技巧-融合卷积和BN层.md)
+
+3，`ncnn` 框架源码解析：
+
+- [ncnn 源码解析-sample 运行](5-model_deploy/ncnn源码解析/ncnn源码解析-sample运行.md)
+- [ncnn 源码解析-Net 类](5-model_deploy/ncnn源码解析/ncnn源码解析-Net类.md)
+- [ncnn 源码解析-Layer 层](5-model_deploy/ncnn源码解析/ncnn源码解析-Layer层.md)
+- [ncnn 源码解析-常见算子](../5-model_deploy/ncnn源码解析/ncnn源码解析-常见算子.md)
+
+**5，AI/NPU/GPU 芯片特性**：
+
+- [英伟达 GPU 架构特性详解](5-model_deploy/英伟达GPU架构详解.md)
+
+## 六，异构计算
+
+1. 移动端异构计算：`neon` 编程
+2. GPU 端异构计算：`cuda` 编程
+
+通用矩阵乘法 `gemm` 算法解析与优化、`neon`、`cuda` 编程等内容，以及 `ncnn` 框架代码解析总结。
+
+## 七，大语言模型推理及服务化
+
+**1，LLM 基础知识**：
+
+- [transformers 库快速入门](./6-llm_note/transformer_basic/transformers库快速入门.md)
+- [LLM 背景知识总结](./6-llm_note/transformer_basic/LLM背景知识总结.md)
+
+**2，Transformer 模型基础**：
+
+- [Transformer 原理详解](./6-llm_note/transformer_basic/Transformer模型详解及代码实现.md)
+- [Transformer 基础视觉模型详解](./6-llm_note/transformer_basic/Transformer视觉模型概述.md)
+- [LLaMA 及其子孙模型详解](./6-llm_note/transformer_basic/LLaMA及其子孙模型概述.md)
+- [BLOOM 模型结构详解](./6-llm_note/transformer_basic/BLOOM模型结构详解.md)
+- [GPT1-3 系列模型总结](./6-llm_note/transformer_basic/GPT1-3系列模型总结.md)
+- [CLIP 多模态模型总结](./6-llm_note/transformer_basic/CLIP多模态模型总结.md)
+
+**3，大规模模型的推理优化及部署总结**:
+
+- [Transformer 模型性能分析理论基础](./6-llm_note/llm_inference/Transformer性能分析理论基础.md)
+- [FasterTransformer 框架速览](./6-llm_note/llm_inference/FasterTransformer速览.md)
+- [LLM 训练的并行策略详解](./6-llm_note/llm_inference/LLM训练的并行策略详解.md)
+
+**4，DeepSpeed 框架学习笔记**：
+
+- [DeepSpeed:通过系统优化和压缩加速大规模模型推理和训练](./6-llm_note/deepspeed_note/DeepSpeed:通过系统优化和压缩加速大规模模型推理和训练.md)
+- [DeepSpeed推理:具有定制推理内核和量化支持的多GPU推理](./6-llm_note/deepspeed_note/DeepSpeed推理:具有定制推理内核和量化支持的多GPU推理.md)
+- [DeepSpeed:模型压缩模块详解](./6-llm_note/deepspeed_note/DeepSpeed:模型压缩模块详解.md)
+
+## 参考资料
+
+- 《深度学习》
+- 《机器学习》
+- 《动手学深度学习》
+- [《PyTorch_tutorial_v1.0_余霆嵩》](https://github.com/TingsongYu/PyTorch_Tutorial)
+- [《动手编写深度学习推理框架 Planer》](https://github.com/Image-Py/planer)
+- [distill：知识精要和在线可视化](https://distill.pub/)
+- [LLVM IR入门指南](https://github.com/Evian-Zhang/llvm-ir-tutorial)
+- [nanoPyC](https://github.com/vesuppi/nanoPyC/tree/master)

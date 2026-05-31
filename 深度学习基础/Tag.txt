@@ -1,0 +1,6 @@
+1、CNN详解
+2、BP GD
+3、Activate Function
+4、loss
+5、optim
+6、Initial
