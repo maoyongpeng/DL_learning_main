@@ -67,11 +67,12 @@
 - [ncnn 源码解析-sample 运行](模型部署/ncnn源码解析/ncnn源码解析-sample运行.md)
 - [ncnn 源码解析-Net 类](模型部署/ncnn源码解析/ncnn源码解析-Net类.md)
 - [ncnn 源码解析-Layer 层](模型部署/ncnn源码解析/ncnn源码解析-Layer层.md)
-- [ncnn 源码解析-常见算子](模型部署/ncnn源码解析/ncnn源码解析-常见算子.md)
+- [ncnn 源码解析-常见算子]
 
 **5，AI/NPU/GPU 芯片特性**：
 
-- [英伟达 GPU 架构特性详解](模型部署/英伟达GPU架构详解.md)
+- [英伟达 GPU 架构特性详解](模型部署/英伟达GPU规格总结.md)
+- [Nvidia 性能GPU性能分析指导](模型部署/英伟达GPU性能分析指导.md)
 
 ## 六，异构计算
 
@@ -104,9 +105,10 @@
 
 **4，DeepSpeed 框架学习笔记**：
 
-- [DeepSpeed:通过系统优化和压缩加速大规模模型推理和训练](./LLM基础/deepspeed_note/DeepSpeed:通过系统优化和压缩加速大规模模型推理和训练.md)
-- [DeepSpeed推理:具有定制推理内核和量化支持的多GPU推理](./LLM基础/deepspeed_note/DeepSpeed推理:具有定制推理内核和量化支持的多GPU推理.md)
-- [DeepSpeed:模型压缩模块详解](./LLM基础/deepspeed_note/DeepSpeed:模型压缩模块详解.md)
+- [DeepSpeed:通过系统优化和压缩加速大规模模型推理和训练](./LLM基础/deepspeed_note/DeepSpeed_通过系统优化和压缩加速大规模模型推理和训练.md)
+- [DeepSpeed推理:具有定制推理内核和量化支持的多GPU推理](./LLM基础/deepspeed_note/DeepSpeed推理_具有定制推理内核和量化支持的多GPU推理.md)
+- [DeepSpeed:模型压缩模块详解](./LLM基础/deepspeed_note/DeepSpeed_模型压缩模块详解.md)
+- [DeepSpeed:模型profilling](./LLM基础/deepspeed_note/DeepSpeed_Flops Profiler 分析.md)
 
 ## 参考资料
 
