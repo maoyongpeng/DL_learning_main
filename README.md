@@ -108,7 +108,7 @@
 - [DeepSpeed:通过系统优化和压缩加速大规模模型推理和训练](./LLM基础/deepspeed_note/DeepSpeed_通过系统优化和压缩加速大规模模型推理和训练.md)
 - [DeepSpeed推理:具有定制推理内核和量化支持的多GPU推理](./LLM基础/deepspeed_note/DeepSpeed推理_具有定制推理内核和量化支持的多GPU推理.md)
 - [DeepSpeed:模型压缩模块详解](./LLM基础/deepspeed_note/DeepSpeed_模型压缩模块详解.md)
-- [DeepSpeed:模型profilling](./LLM基础/deepspeed_note/DeepSpeed_Flops Profiler 分析.md)
+- [DeepSpeed:模型profilling]
 
 ## 参考资料
 
